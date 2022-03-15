@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-image: url("https://image.shutterstock.com/image-photo/kerala-boat-house-india-tourism-260nw-1404270323.jpg");
+background-size:cover;
+background-repeat: no-repeat;
+
+
+}
+
+
+
+/* signup section */
+.colorgraph {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+   
+  }
+  .gender-content{
+    color:gray;
+    font-size:2rem;
+    font-weight:300;
+    margin-left:14px;
+  }
+.content{
+  font-size:1.75rem;
+  font-weight:lighter;
+  
+}
+.container{
+  margin-top: 5%;
+  
+}
+h2{
+  text-align:center;
+}
+
+
+@media screen and (max-width: 600px) {
+  body {
+      background-size: cover;
+      
+  }
+}
